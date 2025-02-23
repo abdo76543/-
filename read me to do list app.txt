@@ -1,0 +1,71 @@
+# To-Do List App
+
+This is a simple **To-Do List** application built with **React** for the front-end and **Node.js** for the back-end. The application allows users to add, display, and delete tasks from a to-do list.
+
+## Features
+
+- Add new tasks.
+- View all tasks.
+- Delete tasks from the list.
+
+## Tech Stack
+
+- **Frontend**: React
+- **Backend**: Node.js with Express
+- **Database**: In-memory (No database used in this example)
+
+## Getting Started
+
+### Prerequisites
+
+To run this project, you will need to have **Node.js** installed on your machine.
+
+1. **Install Node.js**:
+   - Download and install Node.js from [here](https://nodejs.org/).
+
+2. **Install Dependencies**:
+   - In the project directory, run:
+     ```bash
+     npm install
+     ```
+
+### Running the Application
+
+1. **Backend (Node.js)**:
+   - Navigate to the server directory and start the Node.js server:
+     ```bash
+     node server.js
+     ```
+   - The server will run on `http://localhost:3000`.
+
+2. **Frontend (React)**:
+   - Navigate to the React app directory and install the dependencies:
+     ```bash
+     npm install
+     ```
+   - Then run the React development server:
+     ```bash
+     npm start
+     ```
+   - The React app will be available at `http://localhost:3000` by default.
+
+### API Endpoints
+
+- `GET /tasks`: Retrieve all tasks.
+- `POST /tasks`: Add a new task to the list.
+- `DELETE /tasks/:id`: Delete a task by its ID.
+
+## Project Structure
+
+
+- `/client` contains the React code responsible for the front-end.
+- `/server` contains the Node.js code responsible for handling requests and managing the task data.
+
+## Contributing
+
+If you'd like to contribute to this project, feel free to fork it and submit a pull request with your changes!
+
+## License
+
+This project is open-source and available under the MIT License.
+
