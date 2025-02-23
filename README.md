@@ -22,3 +22,32 @@
 2. Скачайте код проекта или клонируйте репозиторий:
    ```bash
    git clone https://github.com/your-username/calculator-project.git
+   
+   Перейдите в папку с проектом:
+   cd calculator-project
+ 
+   Запустите скрипт:
+   python calculator.py
+Пример работы :
+🔢 Advanced Calculator
+1️⃣ - Addition (+)
+2️⃣ - Subtraction (-)
+3️⃣ - Multiplication (*)
+4️⃣ - Division (/)
+5️⃣ - Exponentiation (^)
+6️⃣ - Square Root (√)
+7️⃣ - Remainder of division (%)
+0️⃣ - Exit
+Select the calculation number: 1
+Enter first number: 10
+Enter second number: 5
+✅ Result: 10 + 5 = 15
+
+💡 Автор: Абдулрахман
+📆 Дата создания: 2025
+🔗 GitHub: Ваш профиль
+
+
+
+
+
